@@ -16,17 +16,15 @@ import Cocoa
 
 // 2
 
-func printFullName(_ lastName: String, _ firstName: String) {
-    print("fullname is \(lastName + firstName)")
-}
-printFullName("홍", "진솔")
-
-
-//// 3
-//func printName(lastName: String, firstName: String) -> String {
-//    let printName = lastName + firstName
-//    return printName
+//func printFullName(_ lastName: String, _ firstName: String) {
+//    print("fullname is \(lastName + firstName)")
 //}
-//
-//let fullname = printName(lastName: "홍", firstName: "진솔")
-//fullname
+//printFullName("홍", "진솔")
+
+
+// 3
+func printFullName(lastName: String, firstName: String) -> String {
+    return "\(lastName + firstName)"
+}
+let fullname = printFullName(lastName: "홍", firstName: "진솔")
+fullname
