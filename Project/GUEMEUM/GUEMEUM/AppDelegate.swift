@@ -11,9 +11,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Thread.sleep(forTimeInterval: 2) //로딩화면 지속시간
         return true
     }
 

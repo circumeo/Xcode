@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4356272722B4DE0027117E /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 0A4356262722B4DE0027117E /* Fonts */; };
+		0A43562A2722ED9A0027117E /* 스크린샷 2021-10-22 오후 9.59.40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4356292722ED8A0027117E /* 스크린샷 2021-10-22 오후 9.59.40.png */; };
 		0A568CE727205BBC009BE39A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A568CE627205BBC009BE39A /* AppDelegate.swift */; };
 		0A568CE927205BBC009BE39A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A568CE827205BBC009BE39A /* SceneDelegate.swift */; };
 		0A568CEB27205BBC009BE39A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A568CEA27205BBC009BE39A /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A4356262722B4DE0027117E /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		0A4356292722ED8A0027117E /* 스크린샷 2021-10-22 오후 9.59.40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2021-10-22 오후 9.59.40.png"; sourceTree = "<group>"; };
 		0A568CE327205BBC009BE39A /* GUEMEUM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUEMEUM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A568CE627205BBC009BE39A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A568CE827205BBC009BE39A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A4356282722EC780027117E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A568CF127205BBE009BE39A /* LaunchScreen.storyboard */,
+				0A568CEC27205BBC009BE39A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0A568CDA27205BBC009BE39A = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +72,11 @@
 				0A568CE627205BBC009BE39A /* AppDelegate.swift */,
 				0A568CE827205BBC009BE39A /* SceneDelegate.swift */,
 				0A568CEA27205BBC009BE39A /* ViewController.swift */,
-				0A568CEC27205BBC009BE39A /* Main.storyboard */,
 				0A568CEF27205BBE009BE39A /* Assets.xcassets */,
-				0A568CF127205BBE009BE39A /* LaunchScreen.storyboard */,
 				0A568CF427205BBE009BE39A /* Info.plist */,
+				0A4356292722ED8A0027117E /* 스크린샷 2021-10-22 오후 9.59.40.png */,
+				0A4356282722EC780027117E /* View */,
+				0A4356262722B4DE0027117E /* Fonts */,
 			);
 			path = GUEMEUM;
 			sourceTree = "<group>";
@@ -126,8 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A568CF327205BBE009BE39A /* LaunchScreen.storyboard in Resources */,
+				0A43562A2722ED9A0027117E /* 스크린샷 2021-10-22 오후 9.59.40.png in Resources */,
 				0A568CF027205BBE009BE39A /* Assets.xcassets in Resources */,
 				0A568CEE27205BBC009BE39A /* Main.storyboard in Resources */,
+				0A4356272722B4DE0027117E /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
