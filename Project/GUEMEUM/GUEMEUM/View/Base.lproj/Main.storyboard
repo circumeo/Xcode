@@ -34,6 +34,7 @@
                                     <fontDescription key="titleFontDescription" name="NanumDarEuiGweDo" family="나눔손글씨 달의궤도" pointSize="35"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="fuck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Abq-ed-4WW"/>
                                     <segue destination="D33-xE-oz9" kind="show" id="fuw-My-iJQ"/>
                                 </connections>
                             </button>
@@ -120,7 +121,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="u5L-3V-5jU"/>
+        <segue reference="fuw-My-iJQ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="systemBackgroundColor"/>
     <resources>

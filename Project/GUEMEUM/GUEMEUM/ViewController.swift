@@ -15,4 +15,6 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func fuck(_ sender: Any) {
+    }
 }
